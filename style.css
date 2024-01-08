@@ -144,7 +144,7 @@ section{
 }
 .party-info{
     text-align: center;
-    background: linear-gradient(to bottom, #fbaeae, #ffffff);
+    background: linear-gradient(to bottom, #fbaeae, #fefdfd);
     padding: 40px;
     border-radius: 10px;
 }
@@ -160,7 +160,7 @@ section{
     grid-column-gap: px;
     grid-row-gap: px;
     margin: 100px 0;
-    background: linear-gradient(to right, #fc8c8c, #fadcdc);
+    background: linear-gradient(to right, #fbf7f7, #fadcdc);
     border-radius: 10px;
 }
 .offer-announcement{
@@ -207,30 +207,64 @@ section{
 }
 
 /* sale products */
-.sale-products{
-    background-color: aqua;
-    position: relative;
-}
 
 .imgOne{
-    position: absolute;
-    left:711px;
-    bottom: 500px;
+    position: relative;
+    left: 710px;
+    top: 10px;
+    
     
 }
 .imgTwo{
-   
+    position: relative;
+    left: 120px;
     
 }
 
 .imgThree{
+    width: 200px;
+    height:200px ;
+    position: relative;
+    bottom: 280px;
+    left: 50px;
     
     
 }
 .imgFour{
-   
     width: 100%;
     height: 100%;
-    position: relative;
+    position: relative;   
     
+}
+
+/* Portfolio Components */
+.portfolio-components{
+    padding: 20px;
+    margin: 0;
+}
+.portfolio-components h1{
+    font-size: 48px;
+    margin: 0; 
+}
+.portfolio-components h3{
+    font-size: 24px;
+    color: #F00;
+}
+.portfolio-components p{
+    font-size: 20px;
+}
+
+/* Portfolio Products section */
+.portfolio-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 10px;    
+         
+}
+.portfolio-products img{
+    max-width: 390px; /* Set the maximum width */
+    max-height: 390px; /* Set the maximum height */
+    width: auto;
+    height: auto;
 }
