@@ -85,7 +85,7 @@ section{
     align-items: center;
 }
 .party-banner{
-    background-image: linear-gradient(to left, rgba(107, 74, 74, 0.5), rgba(255, 53, 53, 0.7)), url('assets/Vectorrr.png');
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('assets/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -137,7 +137,7 @@ section{
 }
 .party-info{
     text-align: center;
-    background: linear-gradient(to bottom, #fbaeae, #fefdfd);
+    background: linear-gradient(to bottom, #fbaeae, #ffffff);
     padding: 40px;
     border-radius: 10px;
 }
