@@ -258,7 +258,7 @@ section{
 .portfolio-products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 10px;    
     grid-column-gap: 10px;    
          
@@ -274,4 +274,34 @@ section{
 }
 .img-hover:hover {
     transform: scale(1.1);
+}
+
+/* Subscribe Components */
+.subscribe-components{
+    margin: 40px 0;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(252, 230, 230);
+    border-radius: 10px;
+    padding: 60px ;
+}
+.subscribe-components h1{
+    font-size: 48px;
+    margin: 20 0px;
+}
+.sale-components p{
+    font-size: 30px;
+}
+.subscribe-input{
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+}
+.subscribe-btn
+{
+    padding: 15px 20px;
+    background-color: rgb(255, 183, 0);
+    border: none;
+    border-radius: 0 50px 50px 0;
+    font-weight: bold;
 }
