@@ -1,0 +1,236 @@
+*{
+    
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@400;700&display=swap');
+  
+}
+
+
+section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    position: relative;
+    max-width: 1140px;
+    margin: 50px auto;
+    align-items: center;
+}
+.banner{
+    background-image: linear-gradient(rgba(2, 2, 2, 0.7), rgba(59, 29, 29, 0.3)), url('assets/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin:  50px 0px;  
+    position: relative;
+    border-radius: 10px;
+}
+.banner-contents{
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.banner-contents h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner-contents h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+}
+
+.categories{
+    align-items: center;
+    text-align: center;
+}
+.categories h2, h3, p {
+    font-family: Inter; 
+}
+.categories h2{
+    font-size: 88px;
+    color: #F00;
+
+}
+.categories h3{
+    font-size: 48px;
+}
+.categories p{
+    font-size: 24px;
+    color: #F00;
+}
+
+/* Mid night party section */
+.midnight-party{
+    position: relative;
+    max-width: 1140px;
+    margin: 70px auto;
+    align-items: center;
+}
+.party-banner{
+    background-image: linear-gradient(to left, rgba(107, 74, 74, 0.5), rgba(255, 53, 53, 0.7)), url('assets/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;       
+}
+.party-contents{
+    text-align: left;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    width: 100%;
+    
+}
+
+.party-contents h1{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+     /* 137.5% */
+    
+}
+.party-contents p{
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    
+    
+}
+.party-contents img{
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    
+}
+.party-text{
+    padding-left: 50px;
+}
+.join-btn{
+    padding: 15px 17px;
+    background-color: rgb(255, 183, 0);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.party-info{
+    text-align: center;
+    background: linear-gradient(to bottom, #fbaeae, #ffffff);
+    padding: 40px;
+    border-radius: 10px;
+}
+.party-info span{
+    color: red;
+}
+
+/* Offer Section */
+.offer-components{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: px;
+    margin: 100px 0;
+    background: linear-gradient(to right, #fc8c8c, #fadcdc);
+    border-radius: 10px;
+}
+.offer-announcement{
+    padding: 40px;
+    font-family: Merriweather;   
+}
+.offer-announcement h1 {
+    font-size: 40px;   
+}
+.offer-announcement h2 {
+    color:#F00;
+    font-size: 24px;   
+}
+.offer-img{
+    border: 7px solid #ff0000; 
+    padding: 25px;
+    border-radius: 500px;
+    margin: 20px 10px ;
+}
+.offer-img img {
+    width: 100%;
+  height: 100%; 
+}
+.offer-year{
+    font-family: Inter; 
+   margin-right: 5px;
+}
+.offer-year h1 {
+    font-size: 48px;
+    color: #F00;
+}
+
+/* Sale Section */
+.sale-components{
+    text-align: center;
+    padding: 40px;
+}
+.sale-components h1{
+    font-size: 72px;
+    margin: 0; 
+}
+.sale-components h1>span{
+    color: #F00;
+}
+
+/* sale products */
+.sale-products{
+    background-color: aqua;
+    position: relative;
+}
+
+.imgOne{
+    position: absolute;
+    left:711px;
+    bottom: 500px;
+    
+}
+.imgTwo{
+   
+    
+}
+
+.imgThree{
+    
+    
+}
+.imgFour{
+   
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
