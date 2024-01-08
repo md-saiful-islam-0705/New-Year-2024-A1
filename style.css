@@ -5,12 +5,12 @@
     @import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@400;700&display=swap');
   
 }
-
-
 section{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/* Header Section */
 .header{
     position: relative;
     max-width: 1140px;
@@ -33,10 +33,8 @@ section{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%);   
 }
-
 .banner-contents h3{
     color: #FFF;
     text-align: center;
@@ -53,8 +51,10 @@ section{
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    line-height: 95px; /* 131.944% */
+    line-height: 95px; 
 }
+
+/* Categories Section */
 
 .categories{
     align-items: center;
@@ -66,7 +66,7 @@ section{
 .categories h2{
     font-size: 88px;
     color: #F00;
-
+    margin: 0;
 }
 .categories h3{
     font-size: 48px;
@@ -77,6 +77,7 @@ section{
 }
 
 /* Mid night party section */
+
 .midnight-party{
     position: relative;
     max-width: 1140px;
@@ -102,16 +103,12 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);  
-    width: 100%;
-    
+    width: 100%;   
 }
-
 .party-contents h1{
     font-size: 50px;
     font-style: normal;
-    font-weight: 900;
-     /* 137.5% */
-    
+    font-weight: 900;   
 }
 .party-contents p{
     color: rgba(255, 255, 255, 1);
@@ -119,17 +116,14 @@ section{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    
-    
+    line-height: 30px;   
 }
 .party-contents img{
     max-width: 300px;
     max-height: 300px;
     width: auto;
     height: auto;
-    padding: 20px;
-    
+    padding: 20px;  
 }
 .party-text{
     padding-left: 50px;
@@ -140,7 +134,6 @@ section{
     border: none;
     border-radius: 5px;
     font-weight: bold;
-
 }
 .party-info{
     text-align: center;
@@ -153,6 +146,7 @@ section{
 }
 
 /* Offer Section */
+
 .offer-components{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -194,6 +188,7 @@ section{
 }
 
 /* Sale Section */
+
 .sale-components{
     text-align: center;
     padding: 40px;
@@ -211,14 +206,11 @@ section{
 .imgOne{
     position: relative;
     left: 710px;
-    top: 10px;
-    
-    
+    top: 10px; 
 }
 .imgTwo{
     position: relative;
-    left: 120px;
-    
+    left: 120px;  
 }
 
 .imgThree{
@@ -226,15 +218,12 @@ section{
     height:200px ;
     position: relative;
     bottom: 280px;
-    left: 50px;
-    
-    
+    left: 50px; 
 }
 .imgFour{
     width: 100%;
     height: 100%;
-    position: relative;   
-    
+    position: relative;    
 }
 
 /* Portfolio Components */
@@ -264,10 +253,6 @@ section{
          
 }
 .portfolio-products img{
-    /* max-width: 390px; 
-    max-height: 390px; 
-    width: auto;
-    height: auto; */
     width: 100%;
     height: 100%;
     transition: transform 0.3s ease;
@@ -277,6 +262,7 @@ section{
 }
 
 /* Subscribe Components */
+
 .subscribe-components{
     margin: 40px 0;
     align-items: center;
@@ -304,4 +290,28 @@ section{
     border: none;
     border-radius: 0 50px 50px 0;
     font-weight: bold;
+}
+
+/* Footer section */
+footer{
+    color: white;
+    background-color: black;
+    padding: 40px;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;    
+}
+.contact-info img,p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+.social-links{
+    text-align: center;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-between;
 }
